@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vehicle Service Management</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<h1>Vehicle Service Management</h1>
+
+	<!-- Vehicle Form -->
+	<section>
+		<h2>Add Vehicle</h2>
+		<form id="vehicle-form">
+			<label for="model">Model:</label> <input type="text" id="model"
+				required><br>
+			<br> <label for="registrationNumber">Registration
+				Number:</label> <input type="text" id="registrationNumber" required><br>
+			<br> <label for="purchaseDate">Purchase Date:</label> <input
+				type="date" id="purchaseDate" required><br>
+			<br> <label for="customerId">Customer ID:</label> <input
+				type="number" id="customerId" required><br>
+			<br>
+
+			<button type="submit">Add Vehicle</button>
+		</form>
+	</section>
+
+	<!-- Service Record Form -->
+	<section>
+		<h2>Add Service Record</h2>
+		<form id="service-record-form">
+			<label for="serviceDate">Service Date:</label> <input type="date"
+				id="serviceDate" required><br>
+			<br> <label for="status">Status:</label> <input type="text"
+				id="status" required><br>
+			<br> <label for="vehicleId">Vehicle ID:</label> <input
+				type="number" id="vehicleId" required><br>
+			<br> <label for="advisorId">Advisor ID:</label> <input
+				type="number" id="advisorId" required><br>
+			<br>
+
+			<button type="submit">Add Service Record</button>
+		</form>
+	</section>
+
+	<!-- Bill of Material Form -->
+	<section>
+		<h2>Add Bill of Material</h2>
+		<form id="bom-form">
+			<label for="itemName">Item Name:</label> <input type="text"
+				id="itemName" required><br>
+			<br> <label for="quantity">Quantity:</label> <input
+				type="number" id="quantity" required><br>
+			<br> <label for="unitCost">Unit Cost:</label> <input
+				type="number" id="unitCost" required><br>
+			<br> <label for="serviceRecordId">Service Record ID:</label> <input
+				type="number" id="serviceRecordId" required><br>
+			<br>
+
+			<button type="submit">Add Bill of Material</button>
+		</form>
+	</section>
+
+	<!-- Customer Form -->
+	<section>
+		<h2>Add Customer</h2>
+		<form id="customer-form">
+			<label for="customerName">Name:</label> <input type="text"
+				id="customerName" required><br>
+			<br> <label for="phone">Phone:</label> <input type="text"
+				id="phone" required><br>
+			<br> <label for="email">Email:</label> <input type="email"
+				id="email" required><br>
+			<br> <label for="address">Address:</label> <input type="text"
+				id="address" required><br>
+			<br>
+
+			<button type="submit">Add Customer</button>
+		</form>
+	</section>
+
+	<!-- Service Representative Form -->
+	<section>
+		<h2>Add Service Representative</h2>
+		<form id="service-representative-form">
+			<label for="repName">Name:</label> <input type="text" id="repName"
+				required><br>
+			<br> <label for="repPhone">Phone:</label> <input type="text"
+				id="repPhone" required><br>
+			<br> <label for="expertise">Expertise:</label> <input
+				type="text" id="expertise" required><br>
+			<br>
+
+			<button type="submit">Add Service Representative</button>
+		</form>
+	</section>
+
+	<script src="scripts.js"></script>
+</body>
+</html>
