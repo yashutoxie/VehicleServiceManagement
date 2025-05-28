@@ -1,4 +1,4 @@
-package com.aits.VehicleServicesManagement;
+package com.project.VehicleServiceManagement;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
